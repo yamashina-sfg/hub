@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-british-legends',
+    name: 'British Legends（ブリティッシュ・レジェンズ）',
+    tagline: '文学の英雄たちと冒険する、ドット絵RPG。',
+    description: 'British Legends（ブリティッシュ・レジェンズ）は、イギリス文学の名作を舞台にしたドット絵RPGです。\n\nプレイヤーは崩壊した文学世界「Bibliotheca（ビブリオテカ）」を旅し、作品ごとに存在するダンジョンを攻略していきます。\n\nBeowulf、Hamlet、Macbethなど、イギリス文学を代表する主人公たちを仲間にしながら、敵を倒し、素材を集め、キャラクターを進化・強化していきます。\n\nそれぞれの作品世界には独自の敵やボスが存在し、物語を進めることで新たな仲間や時代が解放されます。\n\n学習アプリではなく、まずは純粋なRPGとして楽しめることを重視しています。\n\n遊んでいるうちに自然とイギリス文学の世界観や登場人物に触れられる、新しい文学ファンタジーRPGです。\n\n主な特徴\n・ドラクエ風ターン制バトル\n・素材収集と進化システム\n・作品ごとのダンジョン探索\n・仲間キャラクターの育成\n・ドット絵レトロRPG\n・イギリス文学の世界観を再構築\n・今後も新作品・新キャラクターを追加予定',
+    thumbnail: '/british-legends.png',
+    screenshots: ['/british-legends.png'],
+    category: 'game',
+    tags: ['RPG', 'ドット絵', 'ファンタジー', 'イギリス文学', '文学', 'ターン制', '育成', '探索', 'レトロゲーム', 'シングルプレイ'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://british-legends.vercel.app',
+    status: 'beta',
+    featured: true,
+    createdAt: '2026-06-18',
+    updatedAt: '2026-06-18',
+  },
+  {
     id: 'app-nation-genesis',
     name: '国家創世記（Nation Genesis）',
     tagline: '一般人から大統領へ。あなたの決断が国家の未来を変える。',
