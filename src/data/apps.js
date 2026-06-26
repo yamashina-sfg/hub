@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-life-replay',
+    name: 'Life Replay',
+    tagline: '人生をやり直せたら、あなたは何を選ぶ？',
+    description: 'Life Replay は、人生の岐路に立つキャラクターを操作するライフシミュレーションゲームです。\n\n恋愛・住まい・学業・キャリアの4つの選択肢が分かれ道として現れ、あなたの選択が人生のストーリーを変えていきます。\n\nドット絵で描かれた温かみのある世界で、何度でも人生をやり直しながら、理想のエンディングを目指しましょう。\n\n主な特徴\n・岐路での選択で変わるストーリー分岐\n・恋愛・仕事・住まい・学習の4ルート\n・ドット絵×アイソメトリックな世界観\n・何周でも楽しめるリプレイ性\n・ブラウザでサクッとプレイ可能',
+    thumbnail: '/life-replay.png',
+    screenshots: ['/life-replay.png'],
+    category: 'game',
+    tags: ['シミュレーション', '人生', '選択', 'ドット絵', 'カジュアル', 'ストーリー', 'RPG'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://life-replay-game.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-27',
+    updatedAt: '2026-06-27',
+  },
+  {
     id: 'app-project-chai',
     name: 'Project CHAI',
     tagline: 'トイレブラシを武器に戦え。最強の清掃戦士、参上。',
