@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-project-chai',
+    name: 'Project CHAI',
+    tagline: 'トイレブラシを武器に戦え。最強の清掃戦士、参上。',
+    description: 'Project CHAI は、伝説のトイレ清掃戦士「チャイ」を操作するアクションゲームです。\n\nムエタイの技とトイレブラシを組み合わせた独自のバトルスタイルで、次々と押し寄せる敵を華麗に撃退しましょう。\n\n爽快なコンボアクションと、予想外すぎる世界観が癖になる一作。\n清掃という概念が、戦いへと昇華した。',
+    thumbnail: '/project-chai.jpg',
+    screenshots: ['/project-chai.jpg'],
+    category: 'game',
+    tags: ['アクション', '格闘', 'カジュアル', 'ユニーク', 'WebGL'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://project-chai-webgl.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-18',
+    updatedAt: '2026-06-18',
+  },
+  {
     id: 'app-british-legends',
     name: 'British Legends（ブリティッシュ・レジェンズ）',
     tagline: '文学の英雄たちと冒険する、ドット絵RPG。',
