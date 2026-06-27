@@ -78,7 +78,7 @@ export const APPS = [
     id: 'app-project-chai',
     name: 'Project CHAI',
     tagline: 'トイレブラシを武器に戦え。最強の清掃戦士、参上。',
-    description: 'Project CHAI は、伝説のトイレ清掃戦士「チャイ」を操作するアクションゲームです。\n\nムエタイの技とトイレブラシを組み合わせた独自のバトルスタイルで、次々と押し寄せる敵を華麗に撃退しましょう。\n\n爽快なコンボアクションと、予想外すぎる世界観が癖になる一作。\n清掃という概念が、戦いへと昇華した。',
+    description: 'タイから日本へやってきた青年チャイが、トイレ清掃の仕事を通じて夢を追うアクション清掃ゲーム。\n\n汚れに合わせて道具や洗剤を使い分け、制限時間内にトイレをピカピカにしよう。\n\n清掃で稼いだお金で道具を強化し、トレーニングで成長。\nムエタイ魂で、どんな汚れも吹き飛ばせ！',
     thumbnail: '/project-chai.jpg',
     screenshots: ['/project-chai.jpg'],
     category: 'game',
