@@ -134,7 +134,7 @@ export default function Admin() {
             </div>
             {field('詳細説明 *', 'description', 'textarea', { required: true })}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {field('サムネイル URL *', 'thumbnail', 'url', { required: true, placeholder: 'https://...' })}
+              {field('サムネイル URL *', 'thumbnail', 'text', { required: true, placeholder: '/project-chai.jpg または https://...' })}
               {field('アプリ URL *', 'appUrl', 'url', { required: true, placeholder: 'https://...' })}
             </div>
             {field('タグ (カンマ区切り)', 'tags', 'text', { placeholder: 'タイマー, 集中力, ポモドーロ' })}
