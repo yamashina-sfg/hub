@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-jihanki',
+    name: 'じはんきタウンメーカー',
+    tagline: '自販機を設置して、街の未来をつくろう。',
+    description: 'あなたの戦略で、自販機が街を変える。\n\n人の流れや時間帯、天候、商品の人気まで考えて、自販機を最適な場所に設置しよう。\n\n売上や利益を分析し、商品構成や価格を見直して、より多くの人に選ばれる自販機を目指せ！\n\n観察・分析・改善をくり返して、街に欠かせない自販機ネットワークを築き上げよう。',
+    thumbnail: '/jihanki.png',
+    screenshots: ['/jihanki.png'],
+    category: 'game',
+    tags: ['シミュレーション', '経営', '街づくり', 'ドット絵', 'カジュアル', '戦略', 'ビジネス'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://jihanki-neo.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-27',
+    updatedAt: '2026-06-27',
+  },
+  {
     id: 'app-life-replay',
     name: 'Life Replay',
     tagline: '人生をやり直せたら、あなたは何を選ぶ？',
