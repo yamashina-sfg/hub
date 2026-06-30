@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-swat-fps',
+    name: 'SWAT: ブリーチング・オペレーション',
+    tagline: '扉の向こうに、敵がいる。',
+    description: 'SWAT: ブリーチング・オペレーションは、精鋭部隊の一員として建物に突入するFPS（一人称視点シューター）ゲームです。\n\n暗闘の中で敵の位置を読みながら、慎重に部屋をクリアリングしていく緊張感あるタクティカルシューター。\n\nフラッシュバンや突破口の使い方、チームの動き方を駆使して、ミッションをクリアせよ。\n\n主な特徴\n・タクティカルFPS視点のブラウザゲーム\n・室内戦・クリアリングに特化したゲームプレイ\n・緊迫感あるリアル寄りのビジュアル\n・ステージクリア型ミッション\n・ブラウザでプレイ可能',
+    thumbnail: '/swat-fps.png',
+    screenshots: ['/swat-fps.png'],
+    category: 'game',
+    tags: ['FPS', 'シューター', 'タクティカル', 'アクション', 'ミリタリー', 'SWAT', '3D'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://swat-fps-vanilla.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-wolf-merge',
     name: 'WOLF MERGE — 孤高の旅',
     tagline: '狼と共に旅をして、合体の力で世界を制せ。',
