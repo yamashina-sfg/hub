@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-wolf-merge',
+    name: 'WOLF MERGE — 孤高の旅',
+    tagline: '狼と共に旅をして、合体の力で世界を制せ。',
+    description: 'WOLF MERGE は、ネオンに輝く狼をシンボルに持つマージパズルRPGです。\n\n同じ素材やキャラクターを合体（マージ）させて強化しながら、ダークファンタジーの世界を冒険します。\n\n旅の中で出会う仲間を合体・進化させ、強大なボスに挑め。\n\n主な特徴\n・直感的なマージ（合体）パズル\n・ダークネオン×ファンタジーの世界観\n・キャラクター進化・強化システム\n・次々と解放されるステージ探索\n・ブラウザでサクッとプレイ可能',
+    thumbnail: '/wolf-merge.png',
+    screenshots: ['/wolf-merge.png'],
+    category: 'game',
+    tags: ['パズル', 'マージ', 'RPG', 'ファンタジー', 'ダーク', 'カジュアル', '進化', '冒険'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://make-journey-merge-quest6.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-jihanki',
     name: 'じはんきタウンメーカー',
     tagline: '自販機を設置して、街の未来をつくろう。',
