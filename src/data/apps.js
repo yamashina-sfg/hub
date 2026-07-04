@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-surf-drive',
+    name: 'Surf Drive',
+    tagline: '波を駆けろ。障害をよけて、海の果てへ。',
+    description: 'Surf Drive は、南国の海を舞台にしたスマホ向け疑似3Dサーフィンランナーゲームです。\n\nボードに乗った少年を操作して、押し寄せる障害物（流木・ブイ・サメ）を華麗にかわしながら、ひたすら前へ進め。\n\n貝殻・ヒトデ・金魚などのアイテムを集めてスコアを伸ばし、マグネットや雷などのパワーアップを駆使して高得点を狙おう。\n\n主な特徴\n・直感的なスワイプ操作\n・美麗な南国ビジュアル\n・多彩な障害物とアイテム\n・パワーアップシステム\n・スマホ縦画面に最適化',
+    thumbnail: '/surf-drive.png',
+    screenshots: ['/surf-drive.png'],
+    category: 'game',
+    tags: ['ランナー', 'サーフィン', 'カジュアル', 'アクション', 'スマホ', '3D', '南国', 'エンドレス'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://surf-drive.vercel.app',
+    status: 'public',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-swat-fps',
     name: 'SWAT: ブリーチング・オペレーション',
     tagline: '扉の向こうに、敵がいる。',
