@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-low-poly-town',
+    name: 'Low Poly Town Builder',
+    tagline: 'のどかな街を、自分の手でつくろう。',
+    description: 'Low Poly Town Builder は、ローポリゴンの温かみある世界で街づくりを楽しむシミュレーションゲームです。\n\n道路を引き、家を建て、お店や公園を配置しながら、小さな村を大都市へと発展させよう。\n\n自然豊かな森や川のそばに、あなただけの理想の街をデザインしてください。\n\n主な特徴\n・直感的な街づくりシステム\n・ローポリゴンのやさしいビジュアル\n・道路・建物・自然の自由な配置\n・村から大都市への発展\n・ブラウザでのんびりプレイ可能',
+    thumbnail: '/low-poly-town.png',
+    screenshots: ['/low-poly-town.png'],
+    category: 'game',
+    tags: ['街づくり', 'シミュレーション', 'ローポリ', '3D', 'カジュアル', '建設', 'のんびり'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://low-poly-town-builder.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-surf-drive',
     name: 'Surf Drive',
     tagline: '波を駆けろ。障害をよけて、海の果てへ。',
