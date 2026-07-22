@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-water-shot',
+    name: 'Water Shot Puzzle',
+    tagline: '水をねらって、3つ星を獲れ。',
+    description: 'Water Shot Puzzle は、水鉄砲でパイプの穴に水を当てるアングル調整パズルゲームです。\n\n発射角度とタイミングを計算して、水の弧を描くように狙いを定めよう。\n\nシンプルな操作で奥深いステージが次々と登場。全ステージ3つ星クリアを目指せ！\n\n主な特徴\n・直感的なアングル調整操作\n・物理演算による水の軌道\n・3つ星評価システム\n・ステージ数豊富なパズルモード\n・ブラウザでサクッとプレイ可能',
+    thumbnail: '/water-shot.png',
+    screenshots: ['/water-shot.png'],
+    category: 'game',
+    tags: ['パズル', '物理演算', 'カジュアル', 'アングル', '水', '3つ星', 'ステージクリア'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://water-shot-puzzle.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-low-poly-town',
     name: 'Low Poly Town Builder',
     tagline: 'のどかな街を、自分の手でつくろう。',
