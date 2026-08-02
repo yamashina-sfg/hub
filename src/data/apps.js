@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-shrimp-run',
+    name: 'シュリンPラン',
+    tagline: '走れ、エビ。止まったら、終わりだ。',
+    description: 'シュリンPランは、スピード感あふれるエビのランナーゲームです。\n\n猛ダッシュするエビを操作して、次々と迫る障害物をかわしながらどこまで走り続けられるか挑戦しよう。\n\nシンプルな操作で誰でもすぐ遊べる、思わずもう一回やりたくなる中毒性のカジュアルゲームです。\n\n主な特徴\n・ワンタップで遊べる直感操作\n・スピード感あふれるランナーゲーム\n・愛嬌たっぷりなエビキャラクター\n・ハイスコアへの挑戦\n・ブラウザでサクッとプレイ可能',
+    thumbnail: '/shrimp-run.png',
+    screenshots: ['/shrimp-run.png'],
+    category: 'game',
+    tags: ['ランナー', 'カジュアル', 'エンドレス', 'アクション', 'ハイスコア', 'ワンタップ', 'ユニーク'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://asawjob1016-lgtm.github.io/Shurinp-run/',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-water-shot',
     name: 'Water Shot Puzzle',
     tagline: '水をねらって、3つ星を獲れ。',
