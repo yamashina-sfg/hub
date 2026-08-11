@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-block-puzzle',
+    name: 'Block Puzzle — ブロック消し',
+    tagline: 'ピースを置いて、ラインを消して、頭を使え。',
+    description: 'Block Puzzle は、カラフルなブロックをグリッドに配置してラインを消していくパズルゲームです。\n\nテトリスライクな爽快感はそのままに、自分のペースで考えながら遊べるのが特徴。\n\nピースを上手く組み合わせてまとめて消せば、コンボで大量得点！ハイスコアを目指して何度でも挑戦しよう。\n\n主な特徴\n・ドラッグ＆ドロップで直感的に操作\n・ライン消しコンボでスコアを稼げ\n・考えるほど面白い無限パズル\n・シンプルルールで誰でもすぐ遊べる\n・ブラウザでサクッとプレイ可能',
+    thumbnail: '/block-puzzle.png',
+    screenshots: ['/block-puzzle.png'],
+    category: 'game',
+    tags: ['パズル', 'ブロック', 'カジュアル', 'ライン消し', 'ハイスコア', 'テトリス風', '頭脳'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://block-puzzle-vercel-2.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-shrimp-run',
     name: 'シュリンPラン',
     tagline: '走れ、エビ。止まったら、終わりだ。',
