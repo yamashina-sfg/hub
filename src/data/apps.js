@@ -59,6 +59,22 @@ export const DEVELOPERS = [
 
 export const APPS = [
   {
+    id: 'app-snap-check',
+    name: 'snap-check',
+    tagline: '写真を撮って、チェックリストを完了させよう。',
+    description: 'snap-check は、写真撮影とチェックリストを組み合わせた確認・記録ツールです。\n\n現場の点検、設備の確認、作業完了の記録など、「見た目で確認したい」あらゆる場面で活躍します。\n\n撮影した写真とチェック項目をセットで管理できるので、後から見返したときも状況が一目でわかります。\n\n主な特徴\n・カメラ撮影とチェックリストの一体管理\n・現場・設備点検に最適\n・シンプルで使いやすいUI\n・記録の保存・確認が簡単\n・ブラウザでそのまま使える',
+    thumbnail: '/snap-check.png',
+    screenshots: ['/snap-check.png'],
+    category: 'tool',
+    tags: ['チェックリスト', '写真', '記録', '点検', '現場', '業務', 'ツール'],
+    developer: { id: 'dev-sfg', name: 'SFG', avatar: '/sfg-logo.jpg' },
+    appUrl: 'https://snap-check-ochre.vercel.app',
+    status: 'beta',
+    featured: false,
+    createdAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+  },
+  {
     id: 'app-block-puzzle',
     name: 'Block Puzzle — ブロック消し',
     tagline: 'ピースを置いて、ラインを消して、頭を使え。',
